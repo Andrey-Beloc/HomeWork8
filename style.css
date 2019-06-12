@@ -1,0 +1,64 @@
+table{
+    border: 3px solid #111;
+    border-collapse: collapse;
+    width: 50%;  
+    margin: 50px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 12px; 
+    outline: 1px solid #111;
+    outline-offset: 3px;  
+}
+
+caption{
+    font-weight: bold;
+}
+
+td{
+    padding: 5px 5px 0 3px;    
+}
+
+#throw1 td:nth-child(2){
+    border:1px solid #111;
+    border-left: 3px solid #111;
+}
+
+#throw1 td:nth-child(3){
+    vertical-align: bottom;
+}
+
+#throw2 td, #tbrow1 td:nth-child(n+4), #tbrow2 td:nth-child(n+2), #tbrow3 td:nth-child(n+3), #tbrow4 td:nth-child(n+2),
+#tfrow1 td:nth-child(n+3), #tfrow2 td:nth-child(n+2){
+    border:1px solid #111;
+    text-align: right;
+}
+
+#throw2 td{
+    text-align: center;
+}
+
+#tbrow1 td:nth-child(n+4), #tbrow3 td:nth-child(n+3), #tfrow1 td:nth-child(n+3){
+    border-bottom: none;
+}
+
+#tbrow2 td:nth-child(n+2), #tbrow4 td:nth-child(n+2), #tfrow2 td:nth-child(n+2){
+    border-top: none;
+}
+#tbrow1 td:nth-child(2), #tbrow2 td:first-child{
+    border-bottom: 1px solid #111;
+}
+
+
+#tbrow1 td:nth-child(4), #tbrow2 td:nth-child(2), #tbrow3 td:nth-child(3), #tbrow4 td:nth-child(2),
+ #tfrow1 td:nth-child(3), #tfrow2 td:nth-child(2){
+    border-left:3px solid #111;
+}
+
+tfoot{
+    border-top:1px solid #111;
+}
+ #tfrow1 td:first-child{
+    border-right: none;
+ }
+
+
+
